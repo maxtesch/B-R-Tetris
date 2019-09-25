@@ -2,4 +2,5 @@ VAR
 	test1calvar : BOOL;
 	i : INT;
 	yousure : BOOL;
+	TransformString : STRING[255];
 END_VAR

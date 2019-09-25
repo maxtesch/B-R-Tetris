@@ -39,7 +39,7 @@
 			<Folder Name="IAT_Data" IsGroup="1">
 				<Folder Name="server">
 					<File Name="__SystemVariables.sessionVar" Size="3484" HashValue="4F27B2AC736714506A4AD35EE4C9300A" ProjectDependent="1"/>
-					<File Name="binding_0.binding" Size="128" HashValue="E7919720805891F394A1B9D34CFE48AF" ProjectDependent="1"/>
+					<File Name="binding_0.binding" Size="503" HashValue="F97B61699A7523C6568A7CA269FBEBEC" ProjectDependent="1"/>
 					<File Name="vis_0.vis" Size="1258" HashValue="3B2857A2724E354D0D8E6B780DF4F4C1" ProjectDependent="1"/>
 				</Folder>
 				<Folder Name="wwwRoot">
@@ -530,9 +530,12 @@
 								<File Name="text.js" Size="15611" HashValue="B061E680DC483CAC81AD9EEDAFEB0171" ProjectDependent="1"/>
 							</Folder>
 						</Folder>
+						<Folder Name="Media">
+							<File Name="Sun.svg" Size="900" HashValue="947EAF860547A16E436E35547E9AF236" ProjectDependent="1"/>
+						</Folder>
 						<Folder Name="release">
-							<File Name="brease.js" Size="715254" HashValue="E86B139F1C7D96F757966FA5FDC438FE" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="352877" HashValue="E9238B227490F168C6B3CDA488A3417C" ProjectDependent="1"/>
+							<File Name="brease.js" Size="731774" HashValue="5369D0EF1924AEF4BDF853583C3B8A6A" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="352973" HashValue="45C6DE0093A056CAD31B0791537CE75D" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system">
 							<Folder Name="brease">
@@ -1081,6 +1084,36 @@
 										<File Name="NumPad_Styles.xsd" Size="4202" HashValue="0F1D84DE303F7C2771FC523FC7948851" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
+								<Folder Name="Paper">
+									<File Name="Paper.html" Size="246" HashValue="1CB12499DA6ADC18F7161A4F5FC49BFA" ProjectDependent="1"/>
+									<File Name="Paper.js" Size="13183" HashValue="6DDE8160F43F63D0B2255D1100074271" ProjectDependent="1"/>
+									<Folder Name="assets">
+										<File Name="PaperPlaceholder.svg" Size="3437" HashValue="1BCE3667B3CD44445851B833C38A067E" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="css">
+										<File Name="Paper.sass.css" Size="205" HashValue="65FD643C42C59E05D452D6DC41661F5B" ProjectDependent="1"/>
+										<File Name="Paper.scss" Size="286" HashValue="CFCED6ED8157272D144226F39276848E" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer">
+										<File Name="ClassInfo.js" Size="1696" HashValue="74A378D05E934F9AB0389D989A3A5550" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs">
+										<File Name="Renderer.js" Size="26393" HashValue="16BA97E0D32C04422B840B1FAEEE4FFB" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta">
+										<File Name="Paper.json" Size="12564" HashValue="5612B7E4F579C2A5420B0E10F61CC73C" ProjectDependent="1"/>
+										<File Name="Paper.style" Size="2852" HashValue="0E68447582B09E21517D254DBD549FEB" ProjectDependent="1"/>
+										<File Name="Paper.widget" Size="11907" HashValue="FCEFEAC4B4B09ABB3D381D9C1F768056" ProjectDependent="1"/>
+										<File Name="Paper.xsd" Size="2119" HashValue="99444D89F14C7D3A99A7F4DF17BA83E7" ProjectDependent="1"/>
+										<File Name="Paper_base.scss" Size="332" HashValue="0C06001665FEAF283F219F0FE1CFBA41" ProjectDependent="1"/>
+										<File Name="Paper_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="Paper_default.sass.css" Size="269" HashValue="E93A4DA515B49E9DE72DB069D474F994" ProjectDependent="1"/>
+										<File Name="Paper_default.scss" Size="408" HashValue="2E9CE297F561A74D49AE610BF0EAD720" ProjectDependent="1"/>
+										<File Name="Paper_doc.html" Size="8100" HashValue="683E90B6E4C4814DA3D08D3014C1C004" ProjectDependent="1"/>
+										<File Name="Paper_EventsActions.xsd" Size="3364" HashValue="2AF4CD941942BF096A07C7B8F13CC220" ProjectDependent="1"/>
+										<File Name="Paper_Styles.xsd" Size="1147" HashValue="FCB678762097BFA829D1C554B249FA31" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
 								<Folder Name="Rectangle">
 									<File Name="Rectangle.html" Size="73" HashValue="D1F6EA2AB0E2DA64E70A7FFB97584A1D" ProjectDependent="1"/>
 									<File Name="Rectangle.js" Size="1471" HashValue="36498338117FE07207118142450DA223" ProjectDependent="1"/>
@@ -1139,7 +1172,7 @@
 						<Folder Name="mappView">
 							<File Name="content_Footer.html" Size="13" HashValue="C76C35562F693CB69BEFC6D2A60F49D2" ProjectDependent="1"/>
 							<File Name="content_Header.html" Size="340" HashValue="ECAF66AB86D2A2C2BD1242FF8F63C66A" ProjectDependent="1"/>
-							<File Name="content_Main.html" Size="401" HashValue="36D11C48B63082CDD13FE5AD31A864B7" ProjectDependent="1"/>
+							<File Name="content_Main.html" Size="782" HashValue="B4664FA1D901AA2254752624CC2BF904" ProjectDependent="1"/>
 						</Folder>
 					</Folder>
 					<Folder Name="server">

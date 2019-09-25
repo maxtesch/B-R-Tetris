@@ -1,4 +1,4 @@
 VAR
-	gAxisBasic_0 : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\GitHub\B-R-Tetris\Hartfiel_Tetris\Physical\Config1\X20CP1584\Motion\Config.mpaxisbasic" #2"1" #3"1"*)
-	gAxisBasic_1 : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\GitHub\B-R-Tetris\Hartfiel_Tetris\Physical\Config1\X20CP1584\Motion\Config.mpaxisbasic" #2"1" #3"1"*)
+	gAxisBasic_0 : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\GitHub\B-R-Tetris\Physical\Config1\X20CP1584\Motion\Config.mpaxisbasic" #2"1" #3"1"*)
+	gAxisBasic_1 : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\GitHub\B-R-Tetris\Physical\Config1\X20CP1584\Motion\Config.mpaxisbasic" #2"1" #3"1"*)
 END_VAR

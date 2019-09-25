@@ -5,10 +5,10 @@
     <ConnectionParameters>/RT=1000 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /AM=* /PT=11169</ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>C:\AS_Projects\TEST\MpAxis_Setup\MpAxis_Setup.apj</ApjFullFileName>
-    <ProjectName>MpAxis_Setup</ProjectName>
+    <ApjFullFileName>C:\GitHub\B-R-Tetris\Hartfiel_Tetris.apj</ApjFullFileName>
+    <ProjectName>Hartfiel_Tetris</ProjectName>
     <ActiveConfigurationName>Config1</ActiveConfigurationName>
-    <LicenseDataFolder>C:\AS_Projects\TEST\MpAxis_Setup\Temp\Objects\Config1\X20CP1584</LicenseDataFolder>
+    <LicenseDataFolder>C:\GitHub\B-R-Tetris\Temp\Objects\Config1\X20CP1584</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>

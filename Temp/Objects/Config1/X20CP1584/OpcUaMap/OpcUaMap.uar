@@ -4,7 +4,7 @@
     <Uri>http://br-automation.com/OpcUa/PLC/PV/</Uri>
   </NamespaceUris>
   <Models>
-    <Model ModelUri="http://br-automation.com/OpcUa/PLC/PV/" Version="1.00" PublicationDate="2019-09-24T20:05:19Z" />
+    <Model ModelUri="http://br-automation.com/OpcUa/PLC/PV/" Version="1.00" PublicationDate="2019-09-25T21:32:37Z" />
   </Models>
   <Extensions>
     <Extension>
@@ -22,6 +22,7 @@
       </GlobalVariables>
       <Task Name="Program">
         <Variable Name="test1calvar" DataType="i=1" />
+        <Variable Name="TransformString" DataType="i=12" />
       </Task>
     </Module>
   </DefaultView>

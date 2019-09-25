@@ -1,0 +1,37 @@
+#content_Header_Label1 {
+  top: 15px;
+  position: absolute;
+}
+
+#content_Header_Label1 {
+  left: 160px;
+  position: absolute;
+}
+
+#content_Header_Label1 {
+  width: 640px;
+}
+
+#content_Header_Label1 {
+  height: 70px;
+}
+
+#content_Header_Label1 {
+  z-index: 0;
+}
+
+#content_Header_Label1 {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#content_Header_Label1 {
+  font-size: 50px;
+}

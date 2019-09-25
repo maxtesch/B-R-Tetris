@@ -1,0 +1,5 @@
+VAR
+	test1calvar : BOOL;
+	i : INT;
+	yousure : BOOL;
+END_VAR

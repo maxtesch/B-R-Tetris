@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gAxisBasic_0" Type="mpaxisbasic" />
+  <Element ID="gAxisBasic_1" Type="mpaxisbasic" />
+</Configuration>

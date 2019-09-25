@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="X20BM33" Type="X20BM33" X="250" Y="100" />
+    <Module Name="X20SLX842" Type="X20SLX842" X="250" Y="100" />
+    <Module Name="X20TB52a" Type="X20TB52" X="263" Y="126" />
+    <Module Name="X20TB52" Type="X20TB52" X="250" Y="126" />
+    <Module Name="X20CP1584" Type="X20CP1584" X="100" Y="100" />
+    <Module Name="8EI4X5HWD10.xxxx-1" Type="8EI4X5HWD10.xxxx-1" X="337.900024" Y="100" />
+    <Module Name="8LSA37.DB030S200-3" Type="8LSA37.DB030S200-3" X="515" Y="258.8" />
+    <Module Name="8LSA37.DB030S200-3a" Type="8LSA37.DB030S200-3" X="417.100037" Y="258.8" />
+  </Modules>
+  <Links>
+    <Link From="8EI4X5HWD10.xxxx-1" To="X20CP1584" FromPort="PLK1" ToPort="IF3" IsRoutedByUser="False">
+      <Point X="345.599976" Y="110.5" />
+      <Point X="345.599976" Y="110.5" />
+      <Point X="337.599976" Y="110.5" />
+      <Point X="325" Y="110.5" />
+      <Point X="325" Y="205" />
+      <Point X="156" Y="205" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+    </Link>
+    <Link From="8EI4X5HWD10.xxxx-1" To="8LSA37.DB030S200-3a" FromPort="EC1" ToPort="EC" IsRoutedByUser="False">
+      <Point X="362.900024" Y="237" />
+      <Point X="362.900024" Y="237" />
+      <Point X="384.900024" Y="237" />
+      <Point X="438.600037" Y="237" />
+      <Point X="438.600037" Y="257.9" />
+      <Point X="438.600037" Y="264.9" />
+      <Point X="438.600037" Y="264.9" />
+    </Link>
+    <Link From="8EI4X5HWD10.xxxx-1" To="8LSA37.DB030S200-3" FromPort="EC2" ToPort="EC" IsRoutedByUser="False">
+      <Point X="362.900024" Y="188" />
+      <Point X="362.900024" Y="188" />
+      <Point X="384.900024" Y="188" />
+      <Point X="536.5" Y="188" />
+      <Point X="536.5" Y="257.9" />
+      <Point X="536.5" Y="264.9" />
+      <Point X="536.5" Y="264.9" />
+    </Link>
+    <Link From="8EI4X5HWD10.xxxx-1" To="8LSA37.DB030S200-3a" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="364.5" Y="246.299988" />
+      <Point X="364.5" Y="246.299988" />
+      <Point X="384.5" Y="246.299988" />
+      <Point X="466.600037" Y="246.299988" />
+      <Point X="466.600037" Y="257.9" />
+      <Point X="466.600037" Y="264.9" />
+      <Point X="466.600037" Y="264.9" />
+    </Link>
+    <Link From="8EI4X5HWD10.xxxx-1" To="8LSA37.DB030S200-3" FromPort="MT2" ToPort="MT" IsRoutedByUser="False">
+      <Point X="364.5" Y="197.299988" />
+      <Point X="364.5" Y="197.299988" />
+      <Point X="384.5" Y="197.299988" />
+      <Point X="564.5" Y="197.299988" />
+      <Point X="564.5" Y="257.9" />
+      <Point X="564.5" Y="264.9" />
+      <Point X="564.5" Y="264.9" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

@@ -1,0 +1,12 @@
+﻿
+.clientSelect {
+    width: 260px;
+    float: left;
+    clear: both;
+}
+
+.selectize-control.clientSelect .selectize-dropdown .caption {
+    font-size: 12px;
+    display: block;
+    opacity: 0.5;
+}

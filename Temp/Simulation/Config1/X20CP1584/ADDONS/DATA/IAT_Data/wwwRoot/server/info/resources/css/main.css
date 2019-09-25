@@ -1,0 +1,195 @@
+﻿html, body {
+    width: 100% auto !important;
+    min-width: 800px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(230,230,230);
+}
+
+header {
+    background-color: rgb(192,192,192);
+    height: 55px;
+    margin: 0px;
+}
+
+#body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+#header {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 0 55px;
+    -ms-flex: 0 0 55px;
+    flex: 0 0 55px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+#content {
+    background-color: rgb(214,214,214)
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    overflow: auto;
+    display:block;
+}
+
+#footer {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 0 0px;
+    -ms-flex: 0 0 0px;
+    flex: 0 0 0px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+#table1 {
+    width: 100%;
+    align: top;
+    height: 55px;
+}
+
+#logo {
+    float: left;
+    width: 210px;
+}
+
+#logo_text {
+    color: rgb(100,100,100);
+    font-family: arial;
+    font-size: 18px;
+    padding: 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 110px;
+    text-align: left;
+}
+
+#logo_img {
+    float: left;
+}
+
+#navigation {
+    position: relative;
+    float: left;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    height: 160px;
+    width: 160px;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    margin: 29px;
+    padding: 0px 10px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+button.navigation {
+    font-family: arial;
+    font-size: 16px;
+    width: 120px;
+    height: 42px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0px 10px;
+}
+
+button.navigation > span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button.navigation > span > img {
+    width: 16px;
+    height: 16px;
+    flex-grow: 0;
+}
+
+button.navigation > span > span {
+    flex-grow: 1;
+}
+
+button.navigation:focus {outline:0;}
+
+#version {
+    color: rgb(100,100,100);
+    font-family: arial;
+    font-size: 14px;
+    width: 150px;
+    align: center;
+}
+
+footer {
+    align: bottom;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(214,214,214);
+    color: rgb(100,100,100);
+}
+
+#disclaimer {
+    font-family: arial;
+    font-size: 10px;
+    padding: 5px 5px;
+    margin: 0px;
+}
+
+#copyright {
+    font-size: 12px;
+    font-family: Verdana;
+    background-color: rgb(230,230,230);
+    padding: 5px 0px;
+}

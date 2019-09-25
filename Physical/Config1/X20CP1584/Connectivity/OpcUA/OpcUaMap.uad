@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="4" ArVersion="D4.52">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="TestButton1" />
+        <Variable Name="TestButton2" />
+        <Variable Name="TestButton3" />
+        <Variable Name="TestButton4" />
+      </GlobalVariables>
+      <Task Name="Program">
+        <Variable Name="test1calvar" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

@@ -1,0 +1,8 @@
+VAR
+	gAxis01 : ACP10AXIS_typ;
+	gAxis02 : ACP10AXIS_typ;
+	TestButton1 : BOOL;
+	TestButton2 : BOOL;
+	TestButton3 : BOOL;
+	TestButton4 : BOOL;
+END_VAR

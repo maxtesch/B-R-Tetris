@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.5.2.102"?>
+<LibraryInfos>
+  <Library
+    Name="Acp10_MC"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.06.2" />
+  <Library
+    Name="Acp10man"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.06.2" />
+  <Library
+    Name="Acp10par"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.06.2" />
+  <Library
+    Name="AsIecCon"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsSafety"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="astime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsXml"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="brsystem"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="DataObj"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="FileIO"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="MpAxis"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.69.0" />
+  <Library
+    Name="MpBase"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.06.0" />
+  <Library
+    Name="MpCom"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.06.2" />
+  <Library
+    Name="NcGlobal"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.06.2" />
+  <Library
+    Name="operator"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="runtime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="standard"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="sys_lib"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+</LibraryInfos>

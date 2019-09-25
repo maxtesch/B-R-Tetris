@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="8EI4X5HWD10.xxxx-1" Type="8EI4X5HWD10.xxxx-1" Version="2.3.0.2">
+    <Connection Connector="PLK1" TargetModule="X20CP1584" TargetConnector="IF3">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+    <Connection Connector="EC1" TargetModule="8LSA37.DB030S200-3a" TargetConnector="EC" />
+    <Connection Connector="EC2" TargetModule="8LSA37.DB030S200-3" TargetConnector="EC" />
+    <Connection Connector="MT2" TargetModule="8LSA37.DB030S200-3" TargetConnector="MT" />
+    <Parameter ID="MotionTP" Value="Acp10Arnc0" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r2" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r2" Value="on" />
+  </Module>
+  <Module Name="8LSA37.DB030S200-3" Type="8LSA37.DB030S200-3" Version="1.0.5.34">
+    <Connection Connector="EC" TargetModule="8EI4X5HWD10.xxxx-1" TargetConnector="EC2" />
+    <Connection Connector="MT" TargetModule="8EI4X5HWD10.xxxx-1" TargetConnector="MT2" />
+  </Module>
+  <Module Name="8LSA37.DB030S200-3a" Type="8LSA37.DB030S200-3" Version="1.0.5.34">
+    <Connection Connector="EC" TargetModule="8EI4X5HWD10.xxxx-1" TargetConnector="EC1" />
+    <Connection Connector="MT" TargetModule="8EI4X5HWD10.xxxx-1" TargetConnector="MT1" />
+  </Module>
+  <Module Name="X20BM33" Type="X20BM33" Version="1.0.0.6">
+    <Connection Connector="X2X1" TargetModule="X20CP1584" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20CP1584" Type="X20CP1584" Version="1.5.0.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="MpAxis_Setup_Config1" />
+    <Parameter ID="Simulation" Value="1" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="X20CP1584.IF3" />
+    <Parameter ID="TaskClassIdleTime" Value="2000" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
+  </Module>
+  <Module Name="X20SLX842" Type="X20SLX842" Version="1.10.4.1">
+    <Connection Connector="SS1" TargetModule="X20TB52" TargetConnector="SS" />
+    <Connection Connector="SS2" TargetModule="X20TB52a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM33" TargetConnector="SL1" />
+    <Parameter ID="SafeProject" Value="SafeLOGIC-1" />
+  </Module>
+  <Module Name="X20TB52" Type="X20TB52" Version="1.0.0.1" />
+  <Module Name="X20TB52a" Type="X20TB52" Version="1.0.0.1" />
+</Hardware>

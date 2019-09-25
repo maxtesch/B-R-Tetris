@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AcoposParameterConfiguration>
+  <Root Name="IF3.ST1">
+    <Group Name="M1" />
+    <Group Name="M2" />
+  </Root>
+</AcoposParameterConfiguration>

@@ -1,0 +1,11 @@
+﻿
+span.operationVariable {
+}
+
+span.operationKeyWord {
+    color: blue
+}
+
+code.errorExpression {
+    background-color: rgba(255, 0, 0, 0.4) !important
+}

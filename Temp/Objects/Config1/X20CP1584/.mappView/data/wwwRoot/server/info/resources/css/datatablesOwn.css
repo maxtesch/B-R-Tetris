@@ -1,0 +1,101 @@
+
+div.dataTables_wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 14px;
+}
+
+table.clientDetails {
+    padding-left:55px;
+    font-size: smaller;
+}
+
+td.details-control {
+    background: url('../images/plus-circle.svg') no-repeat center center;
+    background-size: 20px 20px;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../images/minus-circle.svg') no-repeat center center;
+    background-size: 20px 20px;
+}
+
+img.deviceImg {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px; 
+}
+
+img.osImg {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px; 
+}
+
+img.browserImg {
+    width: 25px;
+    height: 25px;
+}
+
+tr.inactiveClient {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+img.inactiveClient, td.inactiveClient {
+    opacity: 0.4;
+}
+
+ul.bindingList {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+ul.bindingList li {
+    margin: 0 0 4px 0;
+}
+
+div.detailControlImg {
+    background: #000000;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 15px;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+div.detailControlImgShown {
+    /*background: url('../images/minus-circle.svg') no-repeat center center;*/
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+div.detailControlImgDisabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+/* row grouping */
+table.dataTable tr.group td {
+  font-weight: bold;
+  background-color: #e0e0e0;
+}
+
+div.collapse-all {
+    background: url('../images/minus-circle.svg') no-repeat center center;
+    background-size: 20px 20px;
+    cursor: pointer;
+    height: 24px
+}

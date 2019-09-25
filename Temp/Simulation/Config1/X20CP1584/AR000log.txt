@@ -1,18 +1,27 @@
-Wed Sep 25 10:59:46 2019
+Wed Sep 25 16:00:13 2019
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Wed Sep 25 10:59:46 2019
+Wed Sep 25 16:00:13 2019
 No ARsim registration found!
 
-Wed Sep 25 10:59:46 2019
-InstanceName: 01d573ba40b56a40
+Wed Sep 25 16:00:13 2019
+InstanceName: 01d573e439b50500
 
-Wed Sep 25 10:59:46 2019
-WorkingDirectory: C:\GitHub\B-R-Tetris\Hartfiel_Tetris\Temp\Simulation\Config1\X20CP1584\
+Wed Sep 25 16:00:13 2019
+WorkingDirectory: C:\GitHub\B-R-Tetris\Temp\Simulation\Config1\X20CP1584\
 
-Wed Sep 25 10:59:46 2019
+Wed Sep 25 16:00:13 2019
 COMMAND_COLDSTART
 
-Wed Sep 25 10:59:48 2019
+Wed Sep 25 16:00:22 2019
+Version: D4.52
+
+Wed Sep 25 16:00:23 2019
+COMMAND_TERMINATE
+
+Wed Sep 25 16:00:23 2019
+COMMAND_COLDSTART
+
+Wed Sep 25 16:00:25 2019
 Version: D4.52
 

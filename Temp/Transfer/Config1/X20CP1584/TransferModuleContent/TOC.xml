@@ -5,11 +5,14 @@
 			<Folder Name="IAT_Data" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
 					<File Name="__SystemVariables.sessionVar" Size="3484" HashValue="4F27B2AC736714506A4AD35EE4C9300A" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="binding_0.binding" Size="128" HashValue="E7919720805891F394A1B9D34CFE48AF" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="binding_0.binding" Size="503" HashValue="F97B61699A7523C6568A7CA269FBEBEC" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="vis_0.vis" Size="1258" HashValue="3B2857A2724E354D0D8E6B780DF4F4C1" ProjectDependent="1" IgnoreDifference="0" />
 				</Folder>
 				<Folder Name="wwwRoot" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="BRVisu" ProjectDependent="1" IgnoreDifference="0">
+						<Folder Name="Media" ProjectDependent="1" IgnoreDifference="0">
+							<File Name="Sun.svg" Size="900" HashValue="947EAF860547A16E436E35547E9AF236" ProjectDependent="1" IgnoreDifference="0" />
+						</Folder>
 						<Folder Name="assets" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="css" ProjectDependent="1" IgnoreDifference="0">
 								<File Name="bootstrap.min.css" Size="117150" HashValue="58A49B3689D699CB72FFDA7252D99FCB" ProjectDependent="1" IgnoreDifference="0" />
@@ -490,8 +493,8 @@
 							<File Name="sinon.js" Size="208950" HashValue="B53B6EE79E2568DC68166087370FCC64" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="release" ProjectDependent="1" IgnoreDifference="0">
-							<File Name="brease.js" Size="715254" HashValue="E86B139F1C7D96F757966FA5FDC438FE" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="352877" HashValue="E9238B227490F168C6B3CDA488A3417C" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease.js" Size="731774" HashValue="5369D0EF1924AEF4BDF853583C3B8A6A" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="352973" HashValue="45C6DE0093A056CAD31B0791537CE75D" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="system" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -837,6 +840,36 @@
 									<File Name="NumPad.html" Size="2983" HashValue="84BB8A2876D042E3755BDD65F30A30B9" ProjectDependent="1" IgnoreDifference="0" />
 									<File Name="NumPad.js" Size="28300" HashValue="2F5683A1EA8356828B8A76C38A8A481E" ProjectDependent="1" IgnoreDifference="0" />
 								</Folder>
+								<Folder Name="Paper" ProjectDependent="1" IgnoreDifference="0">
+									<Folder Name="assets" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="PaperPlaceholder.svg" Size="3437" HashValue="1BCE3667B3CD44445851B833C38A067E" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="css" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="Paper.sass.css" Size="205" HashValue="65FD643C42C59E05D452D6DC41661F5B" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper.scss" Size="286" HashValue="CFCED6ED8157272D144226F39276848E" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="ClassInfo.js" Size="1696" HashValue="74A378D05E934F9AB0389D989A3A5550" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="Renderer.js" Size="26393" HashValue="16BA97E0D32C04422B840B1FAEEE4FFB" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="Paper.json" Size="12564" HashValue="5612B7E4F579C2A5420B0E10F61CC73C" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper.style" Size="2852" HashValue="0E68447582B09E21517D254DBD549FEB" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper.widget" Size="11907" HashValue="FCEFEAC4B4B09ABB3D381D9C1F768056" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper.xsd" Size="2119" HashValue="99444D89F14C7D3A99A7F4DF17BA83E7" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper_EventsActions.xsd" Size="3364" HashValue="2AF4CD941942BF096A07C7B8F13CC220" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper_Styles.xsd" Size="1147" HashValue="FCB678762097BFA829D1C554B249FA31" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper_base.scss" Size="332" HashValue="0C06001665FEAF283F219F0FE1CFBA41" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper_default.sass.css" Size="269" HashValue="E93A4DA515B49E9DE72DB069D474F994" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper_default.scss" Size="408" HashValue="2E9CE297F561A74D49AE610BF0EAD720" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Paper_doc.html" Size="8100" HashValue="683E90B6E4C4814DA3D08D3014C1C004" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<File Name="Paper.html" Size="246" HashValue="1CB12499DA6ADC18F7161A4F5FC49BFA" ProjectDependent="1" IgnoreDifference="0" />
+									<File Name="Paper.js" Size="13183" HashValue="6DDE8160F43F63D0B2255D1100074271" ProjectDependent="1" IgnoreDifference="0" />
+								</Folder>
 								<Folder Name="Rectangle" ProjectDependent="1" IgnoreDifference="0">
 									<Folder Name="css" ProjectDependent="1" IgnoreDifference="0">
 										<File Name="Rectangle.sass.css" Size="140" HashValue="2AD4EF5D66491896998EBA19BDE5C156" ProjectDependent="1" IgnoreDifference="0" />
@@ -1102,7 +1135,7 @@
 						<Folder Name="mappView" ProjectDependent="1" IgnoreDifference="0">
 							<File Name="content_Footer.html" Size="13" HashValue="C76C35562F693CB69BEFC6D2A60F49D2" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="content_Header.html" Size="340" HashValue="ECAF66AB86D2A2C2BD1242FF8F63C66A" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="content_Main.html" Size="401" HashValue="36D11C48B63082CDD13FE5AD31A864B7" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="content_Main.html" Size="782" HashValue="B4664FA1D901AA2254752624CC2BF904" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 					</Folder>
 					<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
@@ -1249,43 +1282,43 @@
 			<File Name="arsimproxy.dll" Size="157184" HashValue="34F7523C68A4F3AC9D442857701950E0" ProjectDependent="1" IgnoreDifference="0" />
 		</Class>
 		<Memory Name="SYSROM">
-			<Module Name="::$$sysconf" Type="129" Size="69820" Modified="2019-09-24 15:05:17" Version="4.52" ProjectDependent="1" Reboot="1" />
-			<Module Name="::TCData" Type="209" Size="6010808" Modified="2019-09-24 15:05:34" Version="1.00" ProjectDependent="1" />
-			<Module Name="::arconfig" Type="132" Size="11720" Modified="2019-09-24 15:05:18" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::asfw" Type="67" Size="3496980" Modified="2019-09-24 15:05:18" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::ashwd" Type="67" Size="5048" Modified="2019-09-24 15:05:18" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::$$sysconf" Type="129" Size="69820" Modified="2019-09-25 15:56:52" Version="4.52" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="6010808" Modified="2019-09-25 15:57:10" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arconfig" Type="132" Size="11720" Modified="2019-09-25 15:56:54" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::asfw" Type="67" Size="3496980" Modified="2019-09-25 15:56:52" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwd" Type="67" Size="5048" Modified="2019-09-25 15:56:53" Version="1.00" ProjectDependent="1" Reboot="1" />
 		</Memory>
 		<Memory Name="USERROM">
-			<Module Name="::Acp10map" Type="70" Size="1148" Modified="2019-09-24 15:05:27" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::Acp10map" Type="70" Size="1148" Modified="2019-09-25 15:57:02" Version="1.00" ProjectDependent="1" Reboot="1" />
 			<Module Name="::ArSvcReg" Type="18" Size="78216" Modified="2016-12-09 07:57:34" Version="4.52" ProjectDependent="1" />
 			<Module Name="::AsBrStr" Type="18" Size="9620" Modified="2018-12-05 23:14:54" Version="4.52" ProjectDependent="1" />
 			<Module Name="::AsIecCon" Type="18" Size="17420" Modified="2018-12-05 23:20:20" Version="4.52" ProjectDependent="1" />
 			<Module Name="::AsSafety" Type="18" Size="122032" Modified="2018-12-05 23:31:56" Version="4.52" ProjectDependent="1" />
 			<Module Name="::AsXml" Type="18" Size="28584" Modified="2018-12-05 23:36:17" Version="4.52" ProjectDependent="1" />
-			<Module Name="::Config" Type="136" Size="24328" Modified="2019-09-24 15:05:21" Version="5.062" ProjectDependent="1" />
+			<Module Name="::Config" Type="136" Size="24328" Modified="2019-09-25 15:56:58" Version="5.062" ProjectDependent="1" />
 			<Module Name="::DataObj" Type="18" Size="13788" Modified="2018-12-05 23:38:12" Version="4.52" ProjectDependent="1" />
 			<Module Name="::FileIO" Type="18" Size="25176" Modified="2018-12-05 23:41:18" Version="4.52" ProjectDependent="1" />
 			<Module Name="::MpAxis" Type="18" Size="611376" Modified="2019-01-22 16:28:29" Version="1.69" ProjectDependent="1" />
 			<Module Name="::MpBase" Type="18" Size="471204" Modified="2018-12-27 10:18:18" Version="5.06" ProjectDependent="1" />
 			<Module Name="::MpCom" Type="18" Size="94136" Modified="2019-06-17 17:26:17" Version="5.062" ProjectDependent="1" />
-			<Module Name="::OpcUaMap" Type="134" Size="576" Modified="2019-09-24 15:05:19" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Program" Type="17" Size="2160" Modified="2019-09-24 15:05:12" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Role" Type="136" Size="760" Modified="2019-09-24 15:05:21" Version="1.00" ProjectDependent="1" />
-			<Module Name="::User" Type="136" Size="648" Modified="2019-09-24 15:05:21" Version="1.00" ProjectDependent="1" />
+			<Module Name="::OpcUaMap" Type="134" Size="592" Modified="2019-09-25 16:32:37" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Program" Type="17" Size="2208" Modified="2019-09-25 16:39:16" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Role" Type="136" Size="760" Modified="2019-09-25 15:56:58" Version="1.00" ProjectDependent="1" />
+			<Module Name="::User" Type="136" Size="648" Modified="2019-09-25 15:56:58" Version="1.00" ProjectDependent="1" />
 			<Module Name="::acp10_mc" Type="18" Size="740784" Modified="2019-05-23 16:40:05" Version="5.062" ProjectDependent="1" Reboot="1" />
-			<Module Name="::acp10cfg" Type="70" Size="724" Modified="2019-09-24 15:05:29" Version="5.062" ProjectDependent="1" Reboot="1" />
-			<Module Name="::acp10etxen" Type="70" Size="168720" Modified="2019-09-24 15:05:29" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::acp10cfg" Type="70" Size="724" Modified="2019-09-25 15:57:04" Version="5.062" ProjectDependent="1" Reboot="1" />
+			<Module Name="::acp10etxen" Type="70" Size="168720" Modified="2019-09-25 15:57:04" Version="1.00" ProjectDependent="1" Reboot="1" />
 			<Module Name="::acp10man" Type="18" Size="562124" Modified="2019-05-24 12:55:20" Version="5.062" ProjectDependent="1" Reboot="1" />
 			<Module Name="::acp10par" Type="18" Size="384" Modified="2019-05-24 12:55:47" Version="5.062" ProjectDependent="1" />
 			<Module Name="::acp10sys" Type="65" Size="10066288" Modified="2019-05-24 09:17:47" Version="5.062" ProjectDependent="1" Reboot="1" />
-			<Module Name="::ashwac" Type="136" Size="212" Modified="2019-09-24 15:05:21" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ashwac" Type="136" Size="212" Modified="2019-09-25 15:56:58" Version="1.00" ProjectDependent="1" />
 			<Module Name="::astime" Type="18" Size="22996" Modified="2018-12-05 23:34:13" Version="4.52" ProjectDependent="1" />
 			<Module Name="::brsystem" Type="18" Size="23844" Modified="2018-12-05 23:36:50" Version="4.52" ProjectDependent="1" />
-			<Module Name="::gAxis01a" Type="70" Size="264" Modified="2019-09-24 15:05:29" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::gAxis01i" Type="70" Size="604" Modified="2019-09-24 15:05:29" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::gAxis02a" Type="70" Size="264" Modified="2019-09-24 15:05:29" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::gAxis02i" Type="70" Size="604" Modified="2019-09-24 15:05:30" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::iomap" Type="50" Size="16844" Modified="2019-09-24 15:05:20" Version="1.00" ProjectDependent="1" />
+			<Module Name="::gAxis01a" Type="70" Size="264" Modified="2019-09-25 15:57:05" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::gAxis01i" Type="70" Size="604" Modified="2019-09-25 15:57:05" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::gAxis02a" Type="70" Size="264" Modified="2019-09-25 15:57:05" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::gAxis02i" Type="70" Size="604" Modified="2019-09-25 15:57:05" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::iomap" Type="50" Size="16844" Modified="2019-09-25 15:56:55" Version="1.00" ProjectDependent="1" />
 			<Module Name="::mvLoader" Type="18" Size="4736" Modified="2019-01-14 08:44:36" Version="1.00" ProjectDependent="1" />
 			<Module Name="::ncglobal" Type="18" Size="13420" Modified="2019-05-24 12:54:37" Version="5.062" ProjectDependent="1" Reboot="1" />
 			<Module Name="::powerlnk" Type="18" Size="44192" Modified="2018-12-05 23:42:29" Version="4.52" ProjectDependent="1" />

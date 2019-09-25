@@ -1,2 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" />
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="content_Main">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:TransformString" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="content_Main_Paper1" attribute="transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+</BindingDefinition>

@@ -4,12 +4,17 @@ PROGRAM _INIT
 	 
 END_PROGRAM
 
+
 PROGRAM _CYCLIC
-	test1calvar;
-	TestButton1;
-	TestButton2;
-	TestButton3;
+
+	IF test1calvar THEN
+		TransformString	:= '[{"select":"#path","duration":1000,"display":true,spin":[45,0,0]}]';
+	ELSE
+		TransformString	:= '';
+	END_IF;
+
 END_PROGRAM
+
 
 PROGRAM _EXIT
 	(* Insert code here *)

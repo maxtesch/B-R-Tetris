@@ -1,1 +1,43 @@
 ﻿@import "mixins.scss";
+#content_Main_Rectangle1 {
+	@include elemTop(48);
+}
+#content_Main_Rectangle1 {
+	@include elemLeft(0);
+}
+#content_Main_Rectangle1 {
+	@include elemWidth(304);
+}
+#content_Main_Rectangle1 {
+	@include elemHeight(604);
+}
+#content_Main_Rectangle1 {
+		z-index: 0;
+}
+#content_Main_Rectangle1 {
+		border-style: solid;
+}
+#content_Main_Rectangle1 {
+		border-width: 2px;
+}
+#content_Main_Rectangle1 {
+		background-color: rgba(105, 105, 105, 1);
+}
+#content_Main_Paper1 {
+	@include elemTop(50);
+}
+#content_Main_Paper1 {
+	@include elemLeft(320);
+}
+#content_Main_Paper1 {
+	@include elemWidth(500);
+}
+#content_Main_Paper1 {
+	@include elemHeight(500);
+}
+#content_Main_Paper1 {
+		z-index: 1;
+}
+#content_Main_Paper1 {
+		background-color: rgba(0, 0, 0, 1);
+}

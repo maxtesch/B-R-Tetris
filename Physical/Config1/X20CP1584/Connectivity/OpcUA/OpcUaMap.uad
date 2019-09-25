@@ -16,6 +16,7 @@
       </GlobalVariables>
       <Task Name="Program">
         <Variable Name="test1calvar" />
+        <Variable Name="TransformString" />
       </Task>
     </Module>
   </DefaultView>

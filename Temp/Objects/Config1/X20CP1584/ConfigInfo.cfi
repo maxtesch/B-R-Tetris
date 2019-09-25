@@ -9,11 +9,11 @@
       Source="Program"
       Language="IEC">
       <InternalFile
-        Path="C:\AS_Projects\TEST\MpAxis_Setup\Temp\Objects\Config1\X20CP1584\Program\Main.st.var" />
+        Path="C:\GitHub\B-R-Tetris\Temp\Objects\Config1\X20CP1584\Program\Main.st.var" />
       <File
-        Path="C:\AS_Projects\TEST\MpAxis_Setup\Logical\Program\Types.typ" />
+        Path="C:\GitHub\B-R-Tetris\Logical\Program\Types.typ" />
       <File
-        Path="C:\AS_Projects\TEST\MpAxis_Setup\Logical\Program\Variables.var" />
+        Path="C:\GitHub\B-R-Tetris\Logical\Program\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass
